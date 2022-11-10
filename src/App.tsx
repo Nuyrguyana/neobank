@@ -1,11 +1,11 @@
 import React from 'react';
+import { Main } from "./main";
 
-function App() {
-  return (
-    <div>
-
-    </div>
-  );
+export const App = () => {
+    return (
+        <div>
+            <Main/>
+        </div>
+    );
 }
 
-export default App;
