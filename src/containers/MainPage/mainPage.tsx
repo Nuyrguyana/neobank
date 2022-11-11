@@ -7,6 +7,7 @@ import card3 from '../../image/cardImage3.png'
 import card4 from '../../image/cardImage4.png'
 import Illustration from '../../image/Illustration2.png'
 import check from '../../image/check.svg'
+import iconBank from '../../image/iconBank.svg'
 
 export const MainPage = () => {
 
@@ -55,6 +56,17 @@ export const MainPage = () => {
                 </div>
 
                 <div className='bloc3'>
+                    <div className='bloc3-section'>
+                        <p className='bloc3-text1'>Exchange rate in internet bank</p>
+                        <p className='bloc3-text2'>Currency</p>
+                        <p>ТУТ БУДЕТ КУРС ВАЛЮТ</p>
+                        <button className='bloc3-btn'>All courses</button>
+                    </div>
+                    <div className='bloc3-section'>
+                        <p  className='bloc3-text3'>Update every 15 minutes, MSC 09.08.2022</p>
+                        <img className='icon-bank' src={iconBank}/>
+                    </div>
+
                 </div>
 
                 <div className='bloc4'>
