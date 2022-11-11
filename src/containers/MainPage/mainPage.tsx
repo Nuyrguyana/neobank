@@ -8,6 +8,7 @@ import card4 from '../../image/cardImage4.png'
 import Illustration from '../../image/Illustration2.png'
 import check from '../../image/check.svg'
 import iconBank from '../../image/iconBank.svg'
+import worldMap from '../../image/worldMap.png'
 
 export const MainPage = () => {
 
@@ -66,10 +67,12 @@ export const MainPage = () => {
                         <p  className='bloc3-text3'>Update every 15 minutes, MSC 09.08.2022</p>
                         <img className='icon-bank' src={iconBank}/>
                     </div>
-
                 </div>
 
                 <div className='bloc4'>
+                    <p className='bloc3-text1'>You can use our services anywhere in the world</p>
+                    <p className='bloc3-text2'>Withdraw and transfer money online through our application</p>
+                    <img className='world-map' src={worldMap}/>
                 </div>
 
                 <div className='bloc5'>
