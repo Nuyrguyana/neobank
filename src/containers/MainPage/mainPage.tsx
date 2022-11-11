@@ -5,39 +5,65 @@ import card1 from '../../image/cardImage1.png'
 import card2 from '../../image/cardImage2.png'
 import card3 from '../../image/cardImage3.png'
 import card4 from '../../image/cardImage4.png'
+import Illustration from '../../image/Illustration2.png'
+import check from '../../image/check.svg'
 
 export const MainPage = () => {
+
+    const arrayBenefits = ['Powerfull online protection', 'Cashback without borders', 'Personal design', 'Work anywhere in the world']
+    const newArrayBenefits = arrayBenefits.map((item) => {
+        return (
+            <div className='text-check'>
+                <img className='img-check' src={check} alt='check'/>
+                <div>{item}</div>
+            </div>
+        )
+    })
+
     return (
         <main className='main'>
             <div className='main-container'>
+
                 <div className='bloc1'>
                     <div className='bloc1-section'>
-                        <p>Choose the design you like and apply for card right now</p>
+                        <p className='bloc1-text'>Choose the design you like and apply for card right now</p>
                         <button className='bloc1-btn'>Choose the card</button>
                     </div>
                     <div className='bloc1-section img'>
                         <img className='bloc1-image-card' src={card1}/>
                         <img className='bloc1-image-card' src={card2}/>
                     </div>
-                    <div className='bloc1-section'>
+                    <div className='bloc1-section img'>
                         <img className='bloc1-image-card' src={card3}/>
                         <img className='bloc1-image-card' src={card4}/>
                     </div>
                 </div>
+
                 <div className='bloc2'>
-
+                    <div className='bloc2-section'>
+                        <img className='bloc2-img' src={Illustration}/>
+                    </div>
+                    <div className='bloc2-section'>
+                        <p className='bloc2-text'>We Provide Many Features You Can Use</p>
+                        <p className='bloc2-text2'>You can explore the features that we provide with fun and have their
+                            own functions each feature
+                        </p>
+                        {newArrayBenefits}
+                    </div>
+                    <div className='bloc2-section'>
+                    </div>
                 </div>
+
                 <div className='bloc3'>
-
                 </div>
+
                 <div className='bloc4'>
-
                 </div>
+
                 <div className='bloc5'>
-
                 </div>
-                <div className='bloc6'>
 
+                <div className='bloc6'>
                 </div>
             </div>
 

@@ -2,16 +2,19 @@
   grid-column: 2/3;
 }
 
+/* bloc1 */
+
+
 .bloc1 {
   justify-content: space-between;
   display: flex;
   margin-top: 8rem;
-
 }
 
-.bloc1 p {
+.bloc1-text {
   font-size: 3rem;
   color: #1C1C1E;
+  padding-right: 10rem;
 }
 
 .bloc1-btn {
@@ -31,4 +34,48 @@
 .bloc1-image-card {
   width: 15.7rem;
   height: 9.3rem;
+}
+
+/* bloc2 */
+
+
+.bloc2 {
+  display: flex;
+}
+
+.bloc2-text {
+  font-family: 'Rubik', sans-serif;
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: #0B132A;
+}
+
+.bloc2-text2 {
+  justify-content: space-between;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #4F5665;
+}
+
+.text-check {
+  width: max-content;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #4F5665;
+  padding-bottom: 1.2rem;
+  display: flex;
+}
+
+.text-check div {
+  padding-top: 0.12rem;
+}
+
+.img-check {
+  padding-right: 1.1rem;
+  width: 1.2rem;
+}
+
+.bloc2-img {
+  padding-right: 4.9rem;
 }
