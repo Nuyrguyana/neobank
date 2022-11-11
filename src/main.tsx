@@ -7,6 +7,7 @@ import { Account } from "./containers/Account/account";
 import { Resources } from "./containers/Resources/resources";
 import { Footer } from "./containers/Footer/footer";
 import './index.css'
+import { MainPage } from "./containers/MainPage/mainPage";
 
 export const Main = () => {
     return (
@@ -18,11 +19,10 @@ export const Main = () => {
                 <Route path='/resources' element={<Resources/>}/>
             </Routes>
             <div className='page'>
-
                 <Header/>
+                <MainPage/>
                 <Footer/>
             </div>
-
         </BrowserRouter>
 
     );

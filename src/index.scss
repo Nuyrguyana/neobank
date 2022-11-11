@@ -10,3 +10,9 @@ body {
   background: #F5F4FF;
   margin: 0 auto;
 }
+
+.page {
+  display: grid;
+  grid-template-rows: 4rem auto 28rem;
+  grid-template-columns: 13rem auto 13rem;
+}

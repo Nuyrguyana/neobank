@@ -1,5 +1,5 @@
 import React from 'react';
-import logo1 from '../../image/logo1.png'
+import logoFooter from '../../image/logoFooter.png'
 import './style.css'
 import '../../index.css'
 import { Link } from "react-router-dom";
@@ -9,7 +9,7 @@ export const Footer = () => {
         <footer className='footer'>
             <div className='footer-container'>
                 <div className='logo-info'>
-                    <img className='logo1' src={logo1}/>
+                    <img className='logoFooter' src={logoFooter}/>
                     <div className='info'>
                         <div className='tel'>+7 (495) 984 25 13</div>
                         <div className='mail'>info@neoflex.ru</div>
