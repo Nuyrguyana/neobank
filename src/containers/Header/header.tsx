@@ -7,8 +7,8 @@ export const Header = () => {
     return (
         <header className='header'>
             <div className='header-container'>
-                <span className='brand'>NeoBank</span>
-                <div className='nav'>
+                <p className='brand'>NeoBank</p>
+                <div className='nav-header'>
                     <Link className='header-link' to='/creditCard'>Credit cart</Link>
                     <Link className='header-link' to='/product'>Product</Link>
                     <Link className='header-link' to='account'>Account</Link>
