@@ -21,8 +21,8 @@ export const Main = () => {
             <div className='page'>
                 <Header/>
                 <MainPage/>
-                <Footer/>
             </div>
+            <Footer/>
         </BrowserRouter>
 
     );

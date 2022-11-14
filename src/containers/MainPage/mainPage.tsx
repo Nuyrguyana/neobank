@@ -52,8 +52,6 @@ export const MainPage = () => {
                         </p>
                         {newArrayBenefits}
                     </div>
-                    <div className='bloc2-section'>
-                    </div>
                 </div>
 
                 <div className='bloc3'>
@@ -64,7 +62,7 @@ export const MainPage = () => {
                         <button className='bloc3-btn'>All courses</button>
                     </div>
                     <div className='bloc3-section'>
-                        <p  className='bloc3-text3'>Update every 15 minutes, MSC 09.08.2022</p>
+                        <p className='bloc3-text3'>Update every 15 minutes, MSC 09.08.2022</p>
                         <img className='icon-bank' src={iconBank}/>
                     </div>
                 </div>
@@ -76,6 +74,10 @@ export const MainPage = () => {
                 </div>
 
                 <div className='bloc5'>
+                    <p className='bloc5-text1'>Current news from the world of finance</p>
+                    <p className='bloc5-text2'>We update the news feed every 15 minutes. You can learn more by clicking
+                        on the news you are interested in.</p>
+
                 </div>
 
                 <div className='bloc6'>

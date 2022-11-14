@@ -42,6 +42,7 @@
 
 .bloc2 {
   display: flex;
+  justify-content: space-between;
 }
 
 .bloc2-text {
@@ -123,17 +124,36 @@
 
 /*Bloc4*/
 
+
+.bloc4 {
+  //grid-column: 2/3;
+  text-align: center;
+}
 .bloc3-text1  {
   font-size: 1.8rem;
   font-weight: 500;
-  text-align: center;
 }
 
 .bloc3-text2 {
   font-weight: 500;
-  text-align: center;
 }
 
 .world-map {
   margin: 3rem 0;
+}
+
+/*Bloc5*/
+
+.bloc5 {
+  text-align: center;
+}
+
+.bloc5-text1 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.bloc5-text2 {
+  font-weight: 500;
+  color: #2D3748;
 }
