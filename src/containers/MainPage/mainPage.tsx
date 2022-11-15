@@ -9,6 +9,9 @@ import Illustration from '../../image/Illustration2.png'
 import check from '../../image/check.svg'
 import iconBank from '../../image/iconBank.svg'
 import worldMap from '../../image/worldMap.png'
+import { ShowNews } from "./showNews";
+import { cardNews } from "../../api/cardNews.api";
+import btnArrow from '../../image/ButtonMedium.png'
 
 export const MainPage = () => {
 
@@ -77,13 +80,18 @@ export const MainPage = () => {
                     <p className='bloc5-text1'>Current news from the world of finance</p>
                     <p className='bloc5-text2'>We update the news feed every 15 minutes. You can learn more by clicking
                         on the news you are interested in.</p>
-
+                    <div className='container-card-new'>
+                        {<ShowNews cardNews={cardNews}/>}
+                        <div className='group-btn-arrow'>
+                            <button><img src={btnArrow}/></button>
+                            <button className='btn-arrow'><img src={btnArrow}/></button>
+                        </div>
+                    </div>
                 </div>
 
                 <div className='bloc6'>
                 </div>
             </div>
-
         </main>
     );
 };
