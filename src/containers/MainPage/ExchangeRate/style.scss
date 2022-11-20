@@ -1,0 +1,38 @@
+.block3 {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(358.2deg, rgba(178, 178, 178, 0.8) 8.06%, rgba(178, 178, 178, 0) 67.93%), rgba(244, 244, 244, 0.9);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(187, 187, 187, 0.2);
+  border-radius: 1.7rem;
+  padding: 2rem;
+  margin: 3rem 0;
+}
+
+.block3-btn {
+  font: {
+    size: 1.25rem;
+    weight: 700;
+  };
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.block3-text1 {
+  font-size: 1.8rem;
+  color: #1C1C1E;
+  margin-top: 0;
+}
+
+.block3-text2 {
+  font-size: 1.2rem;
+}
+
+.block3-text3 {
+  margin-top: 0;
+}
+
+.icon-bank {
+  float: right;
+}

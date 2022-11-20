@@ -1,0 +1,33 @@
+.block1 {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 8rem;
+  font-weight: 700;
+}
+
+.block1-text {
+  font-size: 3rem;
+  color: #1C1C1E;
+  padding-right: 10rem;
+}
+
+.block1-btn {
+  width: 10rem;
+  height: 3.1rem;
+  background: #003CFF;
+  color: white;
+  align-items: center;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.block1-section img {
+  display: flex;
+  margin: 0 0 1rem 1rem;
+}
+
+.block1-image-card {
+  width: 15.7rem;
+  height: 9.3rem;
+}

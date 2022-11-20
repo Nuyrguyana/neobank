@@ -1,0 +1,44 @@
+@mixin textSupport ($font-size, $font-weight) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+}
+
+.block6 {
+  text-align: center;
+  margin-top: 11rem;
+}
+
+.title-support {
+  @include textSupport(1.5rem, 700);
+  color: #EB801D;
+}
+
+.text-support {
+  @include textSupport(1.8rem, 700);
+  color: #1C1C1E;
+}
+
+.text2-support {
+  font-size: 1.8rem;
+  color: #1C1C1E;
+}
+
+.input-support {
+  @include textSupport(1.25rem, 400);
+  width: 32.7rem;
+  height: 5.5rem;
+  border: none;
+  box-shadow: 0 10px 20px rgba(54, 58, 120, 0.1);
+  border-radius: 20px;
+  color: #9092B0;
+}
+
+.btn-support {
+  //position: absolute;
+  width: 10rem;
+  height: 2.8rem;
+  background: #686DF1;
+  border-radius: 20px;
+  color: white;
+  font-weight: 700;
+}
