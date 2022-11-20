@@ -3,13 +3,14 @@
 }
 
 .header-container {
-  max-width: 100%;
+  width: 100%;
   max-height: 4rem;
   display: flex;
   justify-content: space-between;
 }
 
 .brand {
+  font-weight: 700;
   color: #B4387A;
   font-size: 1.5rem;
   align-items: center;
@@ -25,10 +26,12 @@
   color: #1D1929;
   align-items: center;
   padding-right: 2.5rem;
+  font-weight: 700;
 
 }
 
 .header-btn {
+  font-weight: 700;
   width: 8rem;
   height: 3.1rem;
   color: white;

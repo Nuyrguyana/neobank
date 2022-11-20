@@ -1,0 +1,51 @@
+.block5 {
+  text-align: center;
+}
+
+.block5-text1 {
+  font-size: 1.8rem;
+}
+
+.block5-text2 {
+  color: #2D3748;
+  padding-bottom: 2.8rem;
+}
+
+.content-card-new {
+  width: 20rem;
+  height: 28rem;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 1.7rem;
+  padding: 2rem;
+}
+
+.container-card-new {
+  button {
+    background: transparent;
+    border: none;
+  }
+}
+
+.card-new {
+  list-style-type: none;
+  padding-right: 5rem;
+}
+
+.card-new-list {
+  display: flex;
+  padding: 0;
+}
+
+.card-new-title {
+  font-size: 1.25rem;
+}
+
+.btn-arrow {
+  transform: rotate(180deg);
+}
+
+.group-btn-arrow {
+  float: right;
+}

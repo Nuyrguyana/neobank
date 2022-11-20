@@ -1,5 +1,5 @@
 import React from 'react';
-import { ICardNew } from "../../model/model";
+import { ICardNew } from "../../../model/model";
 import { CardNew } from "./cardNew";
 
 interface ShowNewsProps {

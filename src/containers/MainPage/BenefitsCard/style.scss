@@ -1,0 +1,45 @@
+.block2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block2-text {
+  font: {
+    family: 'Rubik', sans-serif;
+    size: 2.1rem;
+  }
+  color: #0B132A;
+}
+
+.block2-text2 {
+  font: {
+    family: 'Rubik', sans-serif;
+    weight: 400;
+  }
+  justify-content: space-between;
+  color: #4F5665;
+}
+
+.text-check {
+  font: {
+    size: 0.8rem;
+    weight: 400;
+  }
+  width: max-content;
+  color: #4F5665;
+  padding-bottom: 1.2rem;
+  display: flex;
+}
+
+.text-check div {
+  padding-top: 0.12rem;
+}
+
+.img-check {
+  padding-right: 1.1rem;
+  width: 1.2rem;
+}
+
+.block2-img {
+  padding-right: 4.9rem;
+}
