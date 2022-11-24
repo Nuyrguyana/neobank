@@ -4,3 +4,10 @@ export interface ICardNew {
     title: string,
     description: string
 }
+
+export interface IAboutCard {
+    id: string,
+    img: any,
+    title: string,
+    description: string
+}

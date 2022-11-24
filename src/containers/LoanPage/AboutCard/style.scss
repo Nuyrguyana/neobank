@@ -1,0 +1,42 @@
+.container-link {
+  border-bottom: 2px solid rgba(128, 128, 128, 0.2);
+  margin-bottom: 3rem;
+}
+
+.link-block2 {
+  text-decoration: none;
+  color: #7B7454;
+  padding-left: 2rem;
+
+  &:hover, &:focus {
+    border-bottom: 2px solid #7B7454;
+  }
+}
+
+.container-about-card {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.about-card {
+  width: 25.37rem;
+  background: #EAECEE;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 1.75rem;
+  padding: 2rem;
+}
+
+.lower {
+  width: 39.37rem;
+  margin-top: 2.5rem;
+}
+
+.dark {
+  background: rgba(127, 146, 172, 0.7);
+}
+
+.title-about-card {
+  font-size: 1.8rem;
+  font-weight: 700;
+}

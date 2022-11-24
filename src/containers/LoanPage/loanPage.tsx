@@ -1,36 +1,14 @@
 import React from 'react';
 import './style.css'
-import cardImg from '../../image/cardImage1.png'
+import { PlatinumCard } from "./PlatinumСard/platinumCard";
+import { AboutCard } from "./AboutCard/aboutCard";
 
 export const LoanPage = () => {
     return (
         <div className='loan'>
             <div className='loan-container'>
-                <div className='card-info'>
-                    <div className='block1'>
-                        <p className='title-advertisement'>Platinum digital credit card</p>
-                        <p>Our best credit card. Suitable for everyday spending and shopping. <br/>
-                            Cash withdrawals and transfers without commission and interest.</p>
-                        <div className='container-condition'>
-                            <div className='condition1'>
-                                <p className='title-condition'>Up to 160 days</p>
-                                <p className='text-condition'>No percent</p>
-                            </div>
-                            <div className='condition1'>
-                                <p className='title-condition'>Up to 600 000 ₽</p>
-                                <p className='text-condition'>Credit limit</p>
-                            </div>
-                            <div className='condition1'>
-                                <p className='title-condition'>0 ₽</p>
-                                <p className='text-condition'>Card service is free</p>
-                            </div>
-                        </div>
-                        <button className='btn-apply'>Apply for card</button>
-                    </div>
-                    <div className='block2'>
-                        <img className='card-img' src={cardImg}/>
-                    </div>
-                </div>
+                <PlatinumCard/>
+                <AboutCard/>
             </div>
         </div>
     );

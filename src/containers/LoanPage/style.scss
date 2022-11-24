@@ -7,7 +7,6 @@
 }
 
 .card-info {
-  width: 100%;
   display: flex;
   height: auto;
   background: linear-gradient(180.8deg, rgba(203, 213, 224, 0.624) 34.33%, rgba(254, 235, 200, 0.56) 64.27%);
@@ -15,6 +14,7 @@
   border-radius: 28.8px;
   justify-content: space-between;
   padding: 3rem 2.1rem;
+  margin-bottom: 3rem;
 }
 
 .title-advertisement {
