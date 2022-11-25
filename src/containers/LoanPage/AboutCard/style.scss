@@ -1,15 +1,19 @@
 .container-link {
   border-bottom: 2px solid rgba(128, 128, 128, 0.2);
   margin-bottom: 3rem;
+  padding: 0;
+
 }
 
 .link-block2 {
   text-decoration: none;
   color: #7B7454;
-  padding-left: 2rem;
+  padding: 0 1rem;
+
 
   &:hover, &:focus {
     border-bottom: 2px solid #7B7454;
+
   }
 }
 
