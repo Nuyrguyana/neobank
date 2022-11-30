@@ -8,6 +8,7 @@ import { Resources } from "./containers/Resources/resources";
 import { Footer } from "./containers/Footer/footer";
 import './index.css'
 import { MainPage } from "./containers/MainPage/mainPage";
+import { LoanPage } from "./containers/LoanPage/loanPage";
 
 export const Main = () => {
     return (
@@ -20,7 +21,8 @@ export const Main = () => {
             </Routes>
             <div className='page'>
                 <Header/>
-                <MainPage/>
+                {/*<MainPage/>*/}
+                <LoanPage/>
             </div>
             <Footer/>
         </BrowserRouter>

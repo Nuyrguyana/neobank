@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css'
 import { ShowNews } from "./showNews";
 import { cardNews } from "../../../api/cardNews.api";
-import btnArrow from "../../../image/ButtonMedium.png";
+import btnArrow from "../../../image/buttonMedium.png";
 
 export const FinanceNews = () => {
     return (

@@ -1,0 +1,59 @@
+.loan {
+  grid-column: 2/3;
+}
+
+.loan-container {
+
+}
+
+.card-info {
+  display: flex;
+  height: auto;
+  background: linear-gradient(180.8deg, rgba(203, 213, 224, 0.624) 34.33%, rgba(254, 235, 200, 0.56) 64.27%);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 28.8px;
+  justify-content: space-between;
+  padding: 3rem 2.1rem;
+  margin-bottom: 3rem;
+}
+
+.title-advertisement {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+
+.card-img {
+  width: 23.7rem;
+  border-radius: 1.25rem;
+  transform: rotate(10deg);
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.container-condition {
+  display: flex;
+}
+
+.condition1 {
+  padding-right: 5rem;
+}
+
+.title-condition {
+  font-size: 1.25rem;
+  color: #3D3D3D;
+}
+
+.text-condition {
+  color: #3D3D3D;
+}
+
+.btn-apply {
+  color: white;
+  border-radius: 0.5rem;
+  background: #003CFF;
+  width: 9rem;
+  height: 3.1rem;
+  font-weight: 700;
+}
