@@ -1,0 +1,136 @@
+@mixin font ($font-size, $font-weight) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+}
+
+@mixin wh ($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+.title-block3 {
+  @include font(1.8rem, 700);
+  text-align: center;
+}
+
+.step-text {
+  text-align: center;
+  margin-bottom: 2.6rem;
+}
+
+.step-container {
+  display: flex;
+}
+
+.step-num {
+  @include font(1.25rem, 700);
+  @include wh(3rem, 3rem);
+  background: #D9D9D9;
+  border-radius: 3.1rem;
+  text-align: center;
+  margin-right: 26.75rem;
+  box-sizing: border-box;
+  padding-top: 0.8rem;
+}
+
+.decor-border1 {
+  @include wh(15.6rem, 0);
+  position: absolute;
+  top: 80.5rem;
+  border-bottom: 0.125rem solid rgba(128, 128, 128, 0.2);
+  transform: rotate(179.82deg);
+  margin-right: 6.6rem;
+  margin-left: 3.375rem;
+}
+
+.container-customize-card {
+  background: #FFFFFF;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 1.75rem;
+  padding: 2rem;
+}
+
+.container-customize-card-1 {
+  display: flex;
+}
+
+.container-title-step {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-customize-card {
+  @include font(1.8rem, 700);
+  margin: 0 auto;
+}
+
+.container-select-amount {
+  @include wh(35.5rem, 10.2rem);
+  padding: 1.5rem 1.5rem 2.5rem 1.5rem;
+  border: 1px solid #5B35D5;
+  border-radius: 0.6rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.min-max-amount {
+  color: #786D6D;
+}
+
+.cont-tit-st-cont-sel-am {
+  border-right: 1px dashed rgba(128, 128, 128, 0.4);
+  padding-right: 2.5rem;
+}
+
+.step-customize-card {
+  margin: 0 auto;
+}
+
+.selected-amount {
+  margin-left: 2.6rem;
+}
+
+.text-selected-amount {
+  @include font(1.25rem, 700);
+}
+
+.sum-selected-amount {
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);;
+}
+
+.tittle-contact-info {
+  @include font(1.25rem, 700);
+}
+
+.container-label-input {
+  display: flex;
+}
+
+.label-contact-info {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.input-contact-info {
+  @include font(0.8rem, 400);
+  @include wh(18.5rem, 2.5rem);
+  background: #F9F5E3;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  padding: 0.8rem 0 0.8rem 1rem;
+  box-sizing: border-box;
+}
+
+.button-form {
+  @include wh(9.25rem, 3rem);
+  font-weight: 700;
+  padding: 1rem 2.3rem;
+  background: #003CFF;
+  border-radius: 0.5rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css'
 import { PlatinumCard } from "./PlatinumСard/platinumCard";
 import { AboutCard } from "./AboutCard/aboutCard";
+import { CardReceiptForm } from "./CardReceiptForm/cardReceiptForm";
 
 export const LoanPage = () => {
     return (
@@ -9,6 +10,7 @@ export const LoanPage = () => {
             <div className='loan-container'>
                 <PlatinumCard/>
                 <AboutCard/>
+                <CardReceiptForm/>
             </div>
         </div>
     );
